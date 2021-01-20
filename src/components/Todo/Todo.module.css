@@ -1,0 +1,19 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  min-height: 450px;
+  background-color: #ffffff;
+}
+
+.title {
+  font: normal normal 50px/ 60px 'FreeMono', monospace;
+  margin: 5% 0 2.5% 0;
+}

@@ -1,0 +1,179 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+  min-height: 500px;
+  width: 450px;
+}
+
+.mark {
+  font-size: 10px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.about {
+  align-items: self-start;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2% 3%;
+}
+
+.img {
+  max-width: 50%;
+  border-radius: 10%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  min-width: 160px;
+}
+
+svg:hover {
+  transition: all .3s;
+  opacity: .4;
+}
+
+svg:active {
+  fill: #1d2f57;
+  transition: .2s ease;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 200px;
+  margin-left: 2%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6%;
+}
+
+.button {
+  min-height: 100px;
+  background: #e2e2e2;
+  border-radius: 4px;
+  cursor: pointer;
+  border: .5px solid #6e6c6b;
+  margin-bottom: 1.5%;
+}
+
+.button:hover {
+  background: #c4c4c4;
+  transition: .2s ease;
+}
+
+.button:active {
+  background: #a3a1a1;
+  transition: .2s ease;
+}
+
+.title {
+  font: normal normal 34px 'FreeMono', monospace;
+}
+
+.name {
+  font: normal normal 30px 'FreeMono', monospace;
+  margin-bottom: 5%;
+}
+
+.bio {
+  text-align: center;
+}
+
+.bio,
+.location,
+.contact {
+  font: normal normal 22px 'FreeMono', monospace;
+}
+
+.my {
+  font: normal normal 26px 'FreeMono', monospace;
+}
+
+.li {
+  width: 80%;
+  list-style-type: none;
+  font: normal normal 20px 'FreeMono', monospace;
+  transition: all .4s;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+
+.rp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.namerepo {
+  font: normal 500 24px 'FreeMono', monospace;
+}
+
+.desc {
+  font: normal normal 18px 'FreeMono', monospace;
+  margin: 0;
+}
+
+.top {
+  margin: 2%;
+}
+
+.css_language,
+.html_language,
+.js_language {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.css_language {
+  background-color: #563d7c;
+}
+
+.html_language {
+  background-color: #e34c26;
+}
+
+.js_language {
+  background-color: #f1e05a;
+}
+
+.repo_lang {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.block_wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2% 0 0 0;
+}
+
+.pagination {
+  margin: 3% 0;
+}
+  

@@ -1,0 +1,35 @@
+input,
+button {
+  font-family: inherit;
+}
+
+.color {
+  color: #d30004;
+  padding: 7px 17px;
+  font: normal normal 20px/ 30px 'FreeMono', monospace;
+}
+
+.input {
+  display: grid;
+}
+
+.text {
+  font: normal normal 10px 'FreeMono', monospace;
+}
+
+.button {
+  margin: 15% 10% 0 10%;
+  background: #fafafa;
+  border-radius: 4px;
+  box-shadow: none;
+  font: normal normal 20px/ 30px 'FreeMono', monospace;
+  color: rgb(0, 0, 0);
+  padding: 0.3em 2.9em;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #c9c9c9;
+  transition: all .5s ease;
+}

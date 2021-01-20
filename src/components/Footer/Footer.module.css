@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font: normal normal 17px 'FreeMono', monospace;
+  color: #000000;
+  margin: 0 5% 2.5% 5%;
+}
+
+@media (max-width: 375px) {
+  .subtitle {
+    font-size: 10px;
+  }
+}
