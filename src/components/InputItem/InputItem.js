@@ -31,7 +31,6 @@ class InputItem extends React.Component {
 		console.log(this.props.onClickAdd)
 	}
 
-
 	render() {
 		const { onClickAdd, items } = this.props;
 

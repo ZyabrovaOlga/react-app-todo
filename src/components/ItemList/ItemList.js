@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Item from '../Item/Item';
 import classnames from 'classnames';
 import styles from './ItemList.module.css';
@@ -22,7 +21,5 @@ const ItemList = ({ items, onClickDone, onClickDelete, onClickDelAll, onClickFil
          </li>)}
     </ul>
 );
-
-
 
 export default ItemList;

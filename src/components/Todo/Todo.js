@@ -7,7 +7,6 @@ import Footer from '../Footer/Footer';
 import styles from './Todo.module.css';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 
-
 const Todo = () => {
   const initialState = {
     items: JSON.parse(localStorage.getItem('items')) || [
@@ -40,28 +39,28 @@ const Todo = () => {
   const [countAll, setCountAll] = useState (initialState.countAll);
 
   useEffect(() => {
-     setVisibleItems(items);
-  }, []);
+    setVisibleItems(items);
+ }, [items]);
 
-  useEffect(() => {
-    onClickFilter(filter);
-  }, [items]);
+ useEffect(() => {
+   onClickFilter(filter);
+ }, [items]);
 
-  useEffect(() => {
-    localStorage.setItem('items', JSON.stringify(items));
-  });
+ useEffect(() => {
+   localStorage.setItem('items', JSON.stringify(items));
+ });
 
-  useEffect(() => {
-    localStorage.setItem('count', JSON.stringify(count));
-  });
+ useEffect(() => {
+   localStorage.setItem('count', JSON.stringify(count));
+ });
 
-  useEffect(() => {
-    localStorage.setItem('countDone', JSON.stringify(countDone));
-  });
+ useEffect(() => {
+   localStorage.setItem('countDone', JSON.stringify(countDone));
+ });
 
-  useEffect(() => {
-    localStorage.setItem('countAll', JSON.stringify(countAll));
-  });
+ useEffect(() => {
+   localStorage.setItem('countAll', JSON.stringify(countAll));
+ });
 
   const onClickDone = id => {
     const newItemList = items.map(item => {
