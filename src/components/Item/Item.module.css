@@ -1,0 +1,31 @@
+.item {
+  font-family: 'FreeMono', monospace;
+  color: #333;
+  text-decoration: none;
+  background-color: #fff;
+}
+  
+.done {
+  font-family: 'FreeMono', monospace;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+  
+.item,
+.done {
+  font-size: 17px;
+  font-weight: normal;
+  border: none;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+  
+.item:hover,
+.done:hover {
+  opacity: 0.5;
+}
+  
+.item:focus,
+.done:focus {
+  outline: none !important;
+}

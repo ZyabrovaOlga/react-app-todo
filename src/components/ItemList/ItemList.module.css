@@ -1,0 +1,12 @@
+.list {
+  margin: 2.5% 0 2.5% 0;
+}
+
+.item {
+  font: normal normal 20px 'FreeMono', monospace;
+
+}
+
+.li {
+  list-style-type: none;
+}
