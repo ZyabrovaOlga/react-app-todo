@@ -32,6 +32,7 @@ class InputItem extends React.Component {
 	}
 
 	render() {
+		//eslint-disable-next-line
 		const { onClickAdd, items } = this.props;
 
 		return (<div className={styles.input}>

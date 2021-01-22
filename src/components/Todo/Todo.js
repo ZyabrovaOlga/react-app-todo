@@ -44,7 +44,9 @@ const Todo = () => {
 
  useEffect(() => {
    onClickFilter(filter);
- }, [items]);
+ }, 
+ //eslint-disable-next-line
+ [items]);
 
  useEffect(() => {
    localStorage.setItem('items', JSON.stringify(items));
